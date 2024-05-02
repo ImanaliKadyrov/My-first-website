@@ -56,6 +56,12 @@ html{
      cursor: pointer;
      font-family: teko, sans-serif;
 }
+.first{
+    margin-left: 30px;
+}
+.last{
+    margin-left: 1250px;
+}
 .button:hover{
     color: #4E6E5D;
     background-color: #ffffff;
@@ -76,18 +82,13 @@ html{
     height: 200px;
     box-shadow: black 0 0 5px 7px;
 }
-.ball{
-    border-radius: 1000px;
-    width: 600px;
-    height: 600px;
-   
-}
-.sball{
-    border-radius: 1000px;
-    width: 500px;
-    height: 500px;
+
+.square{
+ 
+    width: 400px;
+    height: 400px;
     position: absolute;
-    box-shadow: #1c91e5 0 0 71px 7px;
+
 
 }
 
@@ -123,8 +124,14 @@ html{
     width:480px ;
 
 }
+h1{
+    font-size: 30px;
+}
 .deg10{
     rotate: 10deg;
+}
+.deg-15{
+    rotate: -15deg;
 }
 #MAIN {
     scroll-margin-top: 67px;
