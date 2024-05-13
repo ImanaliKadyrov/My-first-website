@@ -1,5 +1,4 @@
 .box{
-    text-align: center;
     width: 50%;
     color: beige;
     height: 886px;
@@ -10,7 +9,6 @@
 }
 
 .box2{
-    text-align: center;
     width: 50%;
     color:#3779a8 ;
     height: 963px;
@@ -30,14 +28,58 @@
     height: 963px;
 }
 .parent3{
-    display: flex;
+   
     background-color: #3779a8;
     height: 963px;
+}
+.parent4{
+    
+    background-color: beige;
+    height: 963px;
+
+}
+.social-ikon{
+    color:blue;
+}
+.social-ikon:hover{
+    color: blue;
+}
+.social-ikon:active{
+    color: blue;
+}
+.social-links1{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+.social-links{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+.wmt{
+    margin-top: 0;
+    padding-top: 50px;
+}
+h2{
+   
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 75px;
+ 
 }
 body{
     margin: 0;
     margin-top: 67px;
     font-family: Damion, sans-serif;
+}
+.footer-content{
+    font-family: 'Courier New', Courier, monospace;
 }
 html{
     scroll-behavior: smooth;
@@ -60,7 +102,7 @@ html{
     margin-left: 30px;
 }
 .last{
-    margin-left: 1250px;
+    margin-left: 57%;
 }
 .button:hover{
     color: #4E6E5D;
@@ -75,6 +117,10 @@ html{
     top: 0;
     width: 100%;
     z-index: 999;
+}
+footer{
+    height: 350px;
+    background-color: #B4B4B8;
 }
 .hello{
     border-radius: 1000px;
@@ -124,8 +170,16 @@ html{
     width:480px ;
 
 }
+.tcenter{
+    text-align: center;
+    padding-left: 0;
+}
 h1{
     font-size: 30px;
+}
+h3{
+    font-size: 50px;
+    padding-left: 15%;
 }
 .deg10{
     rotate: 10deg;
