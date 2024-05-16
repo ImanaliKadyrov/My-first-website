@@ -38,6 +38,29 @@
     height: 963px;
 
 }
+.prtext{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.prtext2{
+    margin-left: 600px;
+    color: #2ea063;
+}
+.prpic{
+    height: 400px;
+    margin-left: 400px;
+}
+.prpic2{
+    height: 450px;
+    top: 2400px;
+    position: absolute;
+    margin-left: 100px;
+    
+}
+
+.flex{
+    display: flex;
+}
 .social-ikon{
     color:blue;
 }
