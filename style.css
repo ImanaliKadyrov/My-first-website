@@ -1,3 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    
+    font-family: Damion, sans-serif;
+}
+footer{
+    height: 350px;
+    background-color: #B4B4B8;
+    margin-top:1px;
+}
+.header{
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+     background-color:  #442f3844;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+
+.parent{
+    display: flex;
+    background-color: #3779a8;
+    height: 963px;
+}
+.parent2{
+    display: flex;
+    background-color: beige;
+    height: 963px;
+}
+.parent3{
+   color:beige;
+    background-color: #3779a8;
+    height: 963px;
+    
+}
+.parent4{
+  
+    background-color: beige;
+    height: 963px;
+    font-family: 'kyb';
+}
+
+
+
 .box{
     width: 50%;
     color: beige;
@@ -7,7 +58,6 @@
     text-align: center;
     justify-content: center;
 }
-
 .box2{
     width: 50%;
     color:#3779a8 ;
@@ -17,50 +67,32 @@
     text-align: center;
     justify-content: center;
 }
-.parent{
-    display: flex;
-    background-color: #3779a8;
-    height: 886px;
-}
-.parent2{
-    display: flex;
-    background-color: beige;
-    height: 963px;
-}
-.parent3{
-   
-    background-color: #3779a8;
-    height: 963px;
-}
-.parent4{
-    
-    background-color: beige;
-    height: 963px;
 
-}
+
+
 .prtext{
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 500px;
+    margin-top: 70px;
 }
 .prtext2{
-    margin-left: 600px;
-    color: #2ea063;
+    margin-left: 800px;
+    
 }
 .prpic{
     height: 400px;
-    margin-left: 400px;
+   box-shadow: #ffffff   0 0 0 45px ;
+   margin-left: 150px;
 }
 .prpic2{
-    height: 450px;
+    height: 400px;
     top: 2400px;
     position: absolute;
     margin-left: 100px;
+    box-shadow: #ffffff   0 0 0 45px ;
     
 }
 
-.flex{
-    display: flex;
-}
+
 .social-ikon{
     color:blue;
 }
@@ -84,29 +116,51 @@
     text-align: center;
     justify-content: center
 }
+
+
 .wmt{
     margin-top: 0;
     padding-top: 50px;
+    font-size: 76px;
+}
+
+
+.slast{
+    margin-bottom: 0;
+}
+
+
+.htext{
+    margin-left: 1250px;
+    color: #3779a8;
+}
+
+
+
+h1{
+    font-size: 30px;
 }
 h2{
    
     margin: 0;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 75px;
  
 }
-body{
-    margin: 0;
-    margin-top: 67px;
-    font-family: Damion, sans-serif;
+h3{
+    font-size: 60px;
+    padding-left: 15%;
 }
+
+
+
 .footer-content{
     font-family: 'Courier New', Courier, monospace;
 }
-html{
-    scroll-behavior: smooth;
-}
+
+
+
 .button{
     text-decoration:none;
     color: #ffffff;
@@ -125,33 +179,21 @@ html{
     margin-left: 30px;
 }
 .last{
-    margin-left: 57%;
+    right:50px;
 }
 .button:hover{
     color: #4E6E5D;
     background-color: #ffffff;
 }
-.header{
-    height: 50px;
-    padding-bottom: 10px;
-    padding-top: 7px;
-     background-color:  #442F38;
-     position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-footer{
-    height: 350px;
-    background-color: #B4B4B8;
-}
+
+
+
 .hello{
     border-radius: 1000px;
     width: 400px;
     height: 200px;
     box-shadow: black 0 0 5px 7px;
 }
-
 .square{
  
     width: 400px;
@@ -160,6 +202,8 @@ footer{
 
 
 }
+
+
 
 .t100{
     top: 360px;
@@ -181,9 +225,18 @@ footer{
     top: 600px;
     left: 30px;
 }
+
+
+
 .absolute{
     position: absolute;
 }
+.flex{
+    display: flex;
+}
+
+
+
 .picture{
     height:400px ;
     width:400px ;
@@ -197,13 +250,9 @@ footer{
     text-align: center;
     padding-left: 0;
 }
-h1{
-    font-size: 30px;
-}
-h3{
-    font-size: 50px;
-    padding-left: 15%;
-}
+
+
+
 .deg10{
     rotate: 10deg;
 }
@@ -227,7 +276,11 @@ h3{
     animation: runaway 30s ease-in-out 10s infinite normal none;
 }
 
-
+@font-face {
+     font-family:'kyb' ; 
+    src: local('kyb'),
+         url(AldotheApache.ttf);
+}
 @keyframes runaway {
     0% {
       left: 368px;
